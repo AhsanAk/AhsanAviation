@@ -1,0 +1,427 @@
+body{
+    font-family: 'Abel', sans-serif;
+    color: #31708f;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+.header{
+    border-bottom: 1px solid #31708f;
+}
+
+.contactInfo, .socialIcons{
+    padding: 10px 0;
+}
+
+.contactInfo > span, .socialIcons > i{
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.contactInfo > i, .socialIcons > i{
+    margin: 0 10px;
+    color: #31708f;
+}
+
+.socialIcons > a:link:hover {
+    color: #31708f;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: white;
+    padding: 20px 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-brand > img{
+    width: 2em;
+    margin-top: -8px;
+}
+
+.navbar-nav > li{
+    margin: 0 30px;
+    font-size: 22px;
+}
+
+.dot{
+    font-size: 30px;
+    vertical-align: middle;
+    margin: -5px 20px 0 20px;
+    color: #31708f;
+}
+
+.dotSmall{
+    padding-right: 5px;
+    font-size: 18px;
+    margin-top: 8px;
+    color: #31708f;
+}
+
+.navbar-nav>li>.dropdown-menu{
+    margin-left: 35px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    text-shadow: 0 0 1px #31708f;
+}
+
+.navbar-default .navbar-nav>li>a{
+
+    color: #31708f;
+}
+
+.shaping{
+  color: white;
+}
+
+.activeLink{
+    text-shadow: 1px 1px 1px #31708f;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;
+}
+
+.aircraftImage  {
+    height: 450px;
+    max-height: 450px;
+    width: 100%;
+}
+
+
+.carousel-caption h1 {
+    font-weight: 900;
+    display: block;
+}
+
+.carousel-caption h1 a {
+    text-decoration: none;
+}
+
+.applyBtn {
+    border-color: #31708f;
+    background: #31708f;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.applyBtn:hover {
+    background: white;
+    color: #31708f;
+    text-decoration: none;
+}
+
+.section{
+    margin: 50px 0;
+}
+
+.sections > h3, .sections > p{
+    margin: 25px 0;
+    color: black;
+}
+
+.learnMoreInfo{
+    padding: 80px 0;
+    background: url("../images/background.png");
+    color: transparent;
+}
+
+.customBtn{
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 20px;
+    -webkit-box-shadow: 0 6px 1px #c2beba;
+    -moz-box-shadow:    0 6px 1px #c2beba;
+    box-shadow:         0 6px 1px #c2beba;
+    -webkit-transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;
+    -ms-transition: box-shadow 1s;
+    -o-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+}
+
+.customBtn:hover{
+    -webkit-box-shadow: 0 6px 13px 0 #c2beba;
+    -moz-box-shadow:    0 6px 13px 0 #c2beba;
+    box-shadow:         0 6px 13px 0 #c2beba;
+
+}
+
+.breadcrumb{
+    padding: 0;
+    background-color: transparent;
+}
+
+.breadcrumb h3 {
+    color: black;
+}
+
+.announce ol li a:link, .assignment ol li a:link {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.impAnnounce .well{
+    -webkit-box-shadow: 0 4px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0 4px 0 rgba(50, 50, 50, 0.75);
+    box-shadow:         0 4px 0 rgba(50, 50, 50, 0.75);
+    padding-bottom: 30px;
+}
+
+.impAnnounce .well a:link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.impAnnounce .well a:link:hover{
+    text-decoration: none;
+    color: #31708f;
+}
+
+
+.announce > ol > li > h3, .insWalk, .assignment > ol > li > h3{
+    letter-spacing: 3px;
+}
+
+.insWalk > h3{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.assignment p{
+    margin-top: 15px;
+}
+
+.extra{
+    margin-bottom: 50px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #31708f;
+}
+
+.carousel-indicators li {
+    border-color: #31708f;
+}
+
+.carousel-indicators li.active {
+    background-color: #31708f;
+}
+
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+    color: whitesmoke;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.testimonials{
+    background: url("../images/black-wallpaper-10.jpg");
+}
+
+.testimonial{
+    color: whitesmoke;
+    text-shadow: 0 0 100px #31708f;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+
+
+.check{;
+    border: 1px solid #31708f;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.importantLinks{
+}
+
+.importantLinks ul li i{
+    margin-right: 10px;
+    color: #31708f;
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+li.list-group-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    background: url("../images/b.jpg");
+    color: whitesmoke;
+}
+
+.footer h3{
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #31708f;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.footer h4 {
+    color: #31708f;
+}
+
+.footerIcon{
+    margin-left: 10px;
+    color: #31708f;
+}
+
+.copyright{
+    border-top: 1px solid #31708f;
+    background-color: black;
+    padding-top: 15px;
+    color: white;
+
+}
+
+.copyrightText{
+    float: right;
+}
+
+.design:hover{
+    text-shadow: 0 0 5px #31708f;
+    color: #31708f;
+}
+
+.imageCenter{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.aerospace h2,  .avionics h2{
+    margin-bottom: 20px;
+}
+
+.aerospace p,  .avionics p{
+    margin-top: 30px;
+    text-align: justify;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aerospace a:link, .avionics a:link{
+    text-decoration: none;
+}
+
+.programsHeading {
+    padding: 0;
+    background: url("../images/black-wallpaper-10.jpg");
+    margin-bottom: 20px;
+}
+
+.programs h2{
+    color: black;
+}
+
+.programsHeading h1, .missionStatementHeading h1, .announcement h1{
+    text-shadow: 0 0 3px white;
+    font-size: 68px;
+    margin-bottom: 30px;
+    padding: 30px;
+    color: honeydew;
+}
+
+.missionStatementHeading{
+    padding: 0;
+    background: url("../images/black-wallpaper-10.jpg");
+    margin-bottom: 20px;
+}
+
+.missionStatement p{
+    padding: 25px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.missionStatement h2 a {
+    color: black;
+}
+
+.announcement{
+    padding: 0;
+    background: url("../images/b.jpg");
+    margin-bottom: 20px;
+}
+
+.announceBtn{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.date h1{
+    margin-left: 33px;
+    color: black;
+}
+
+.form-control{
+    width: 35%;
+}
+
+.impAnnouncement p{
+    text-align: justify;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.select{
+    margin-left: 50px;
+    width: 15%;
+}
+
+.selectLabel{
+    margin-right: 15px;
+}
+
+.customBtnForm{
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.applynowHeading{
+    padding: 30px 0;
+    background: url("../images/black-wallpaper-10.jpg");
+    margin-bottom: 30px;
+}
+
+.applynow h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 68px;
+    color: white;
+}
+
+.control-label{
+    color: black;
+}
